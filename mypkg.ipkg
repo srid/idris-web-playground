@@ -3,7 +3,7 @@ package mypkg
 modules = Main
 main = Main
 
-depends = contrib
+depends = contrib, dom, sop
 
 executable = mypkg
 
