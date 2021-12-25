@@ -7,7 +7,7 @@ idrisid:
 build:	build/exec/main.js
 
 build/exec/main.js:	src/Main.idr 
-	idris2 -o main.js src/Main.idr --cg javascript
+	idris2 --build mypkg.ipkg --cg javascript --output-dir out
 
 web:
 	live-server
