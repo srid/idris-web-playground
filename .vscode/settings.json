@@ -1,0 +1,7 @@
+{
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+  "idris.idris2Mode": true,
+  "idris.idrisPath": "idris2"
+}
