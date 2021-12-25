@@ -19,7 +19,6 @@
           pkgs.mkShell {
             buildInputs = [ (devEnv mypkg) ];
             packages = with pkgs; [
-              idrisPkgs.idris2
               nixpkgs-fmt
               nodePackages.live-server
               goreman
@@ -33,8 +32,6 @@
         defaultPackage = mypkg;
         packages = { inherit mypkg runTests; };
 
-        devShell = pkgs.mkShell {
-          buildInputs = [ (devEnv mypkg) ];
-        };
+        devShell = shell;
       });
 }

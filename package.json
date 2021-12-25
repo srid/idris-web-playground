@@ -1,5 +1,5 @@
 {
-  "name": "idris-js-template",
+  "name": "idris-web-playground",
   "version": "1.0.0",
   "scripts": {
     "dev": "concurrently npm:make:*",
