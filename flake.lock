@@ -300,16 +300,17 @@
         "python": "python",
         "rhone": "rhone",
         "rhone-js": "rhone-js",
+        "snocvect": "snocvect",
         "sop": "sop",
         "tailrec": "tailrec",
         "xml": "xml"
       },
       "locked": {
-        "lastModified": 1639601015,
-        "narHash": "sha256-75UTUhVOUvcsSmUQLjLfAwk5icaVLrQ89lmwRHDoBWQ=",
+        "lastModified": 1642030375,
+        "narHash": "sha256-J1uXnpPR72mjFjLBuYcvDHStBxVya6/MjBNNwqxGeD0=",
         "owner": "claymager",
         "repo": "idris2-pkgs",
-        "rev": "df67304a59a6a69da002db24179ddf2a0eb89a7c",
+        "rev": "ac33a49d4d4bd2b50fddb040cd889733a02c8f09",
         "type": "github"
       },
       "original": {
@@ -432,11 +433,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1640149752,
-        "narHash": "sha256-sIAPt3ItBBvYSh8eX89FvejMSyg/W0OUP+kKfUaNUFw=",
+        "lastModified": 1642069818,
+        "narHash": "sha256-666w6j8wl/bojfgpp0k58/UJ5rbrdYFbI2RFT2BXbSQ=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "7ac6901f5e3038d59d3e2576af445fe418291dd8",
+        "rev": "46821ea01c8f54d2a20f5a503809abfc605269d7",
         "type": "github"
       },
       "original": {
@@ -530,6 +531,22 @@
         "flake-utils": "flake-utils",
         "idris2-pkgs": "idris2-pkgs",
         "nixpkgs": "nixpkgs_2"
+      }
+    },
+    "snocvect": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1641633224,
+        "narHash": "sha256-6zTU4sDzd/R/dFCTNZaX41H4L3/USGLFghMS0Oc9liY=",
+        "owner": "mattpolzin",
+        "repo": "idris-snocvect",
+        "rev": "ff1e7afba360a62f7e522e9bbb856096a79702c4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mattpolzin",
+        "repo": "idris-snocvect",
+        "type": "github"
       }
     },
     "sop": {
